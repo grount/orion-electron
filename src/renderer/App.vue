@@ -1,18 +1,17 @@
 <template>
   <div id="app">
-    <landing-page></landing-page>
+    <Test/>
   </div>
 </template>
 
 <script>
-  import LandingPage from '@/components/LandingPage';
-
-  export default {
-    name: 'orion-electron',
-    components: {
-      LandingPage,
-    },
-  };
+import Test from './components/Test';
+export default {
+  name: 'orion-electron',
+  components: {
+    Test,
+  },
+};
 </script>
 
 <style>
